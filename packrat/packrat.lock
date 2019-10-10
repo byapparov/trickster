@@ -8,6 +8,11 @@ Source: CRAN
 Version: 1.0.0
 Hash: 6abedd7919c4457604c0aa44529a6683
 
+Package: R6
+Source: CRAN
+Version: 2.4.0
+Hash: 948a547c484e5bea15eee76cc53cce3f
+
 Package: RPostgreSQL
 Source: CRAN
 Version: 0.6-2
@@ -18,6 +23,12 @@ Package: Rcpp
 Source: CRAN
 Version: 1.0.2
 Hash: d04e441a8d398e3d3a71f294c07fa94d
+
+Package: askpass
+Source: CRAN
+Version: 1.1
+Hash: 6f6c430e3cd0dd7d48f447700f4d7e7f
+Requires: sys
 
 Package: assertthat
 Source: CRAN
@@ -35,17 +46,85 @@ Source: CRAN
 Version: 1.3.4
 Hash: ff2840dd9b0d563fc80377a5a45510cd
 
+Package: curl
+Source: CRAN
+Version: 4.2
+Hash: 3d7392b36f838a538683f98e580f35dd
+
 Package: data.table
 Source: CRAN
 Version: 1.12.2
 Hash: b1642cf2ee0ab1d1b152ffacdb4401f7
+
+Package: fs
+Source: CRAN
+Version: 1.3.1
+Hash: 104f1ba37405da6eb4d2391f7c02aaba
+Requires: Rcpp
+
+Package: gargle
+Source: github
+Version: 0.4.0.9000
+Hash: ccdc12b8bc25b57ed1bdd96316c0ed36
+Requires: fs, glue, httr, jsonlite, rlang, withr
+GithubRepo: gargle
+GithubUsername: r-lib
+GithubRef: master
+GithubSha1: 8c05dd0b7276cf464524f4e72cdd160370fb71e2
+RemoteHost: api.github.com
+RemoteRepo: gargle
+RemoteUsername: r-lib
+RemoteRef: master
+RemoteSha: 8c05dd0b7276cf464524f4e72cdd160370fb71e2
+
+Package: glue
+Source: CRAN
+Version: 1.3.1
+Hash: 660bbbe3803c7cf7c9489a7d99a9c0ed
+
+Package: httr
+Source: CRAN
+Version: 1.4.1
+Hash: cc16de93eaabd3c6d0785cb8e6d059ab
+Requires: R6, curl, jsonlite, mime, openssl
+
+Package: jsonlite
+Source: CRAN
+Version: 1.6
+Hash: 5f969e213e966135393e3e304abf3f49
+
+Package: mime
+Source: CRAN
+Version: 0.7
+Hash: 0d7563caf453c231b6f8c359c51eecc2
+
+Package: openssl
+Source: CRAN
+Version: 1.4.1
+Hash: b01fe6ae05ec2a30a777dc338af5bf69
+Requires: askpass
 
 Package: packrat
 Source: CRAN
 Version: 0.5.0
 Hash: 498643e765d1442ba7b1160a1df3abf9
 
+Package: rlang
+Source: CRAN
+Version: 0.4.0
+Hash: eabda67321fe1d477ea641ddd5d84f00
+
 Package: stringdist
 Source: CRAN
 Version: 0.9.5.2
 Hash: 99696dca58fc3a46f53eb616f53cf371
+
+Package: sys
+Source: CRAN
+Version: 3.3
+Hash: d5a4afad9298f42aae77f6389713a066
+
+Package: withr
+Source: CRAN
+Version: 2.1.2
+Hash: d534108bcd5f34ec73e9eb523751ba20
